@@ -8,23 +8,10 @@
     <title>Document</title>
 </head>
 <body>
-  <form action="csv_create.php" method="POST">
-    <fieldset>
-      <legend>qiitaの検索したいこと</legend>
-      <a href="csv_read.php">一覧画面</a>
-      <div>
-        タイトル: <input type="text" name="title">
-      </div>
-      <div>
-        個数: <input type="number" name="quantity">
-      </div>
-            <div>
-        ストック数: <input type="number" name="stocks">
-      </div>
-      <div>
-       <button>検索</button>
-      </div>
-    </fieldset>
+  <form action="Quotations.read.php" method="POST">
+  <input type="checkbox" name="emotions[]" value="sad">かなしい
+  <input type="checkbox" name="emotions[]" value="fun">たのしい
+  <input type="submit" value="送信">
   </form>
   <script>
   </script>

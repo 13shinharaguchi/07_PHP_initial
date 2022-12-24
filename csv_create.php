@@ -2,7 +2,9 @@
 // var_dump($_POST);
 // exit();
 
-$title = $_POST['title'];
+$emotions = $_POST['emotions'];
+// var_dump($emotions);
+// exit();
 // $quantity = $_POST['quantity'];
 // $stocks = $_POST['stocks'];
 
@@ -10,7 +12,7 @@ $title = $_POST['title'];
 // $write_data = "{$deadline} {$text} \n";
 $write_data = "{$title} \n";
 
-$file = fopen('data/todo.csv', 'a');
+$file = fopen(`data/$emotions.csv`, `a`);
 
 flock($file, LOCK_EX);
 
