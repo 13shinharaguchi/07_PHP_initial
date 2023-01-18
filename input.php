@@ -12,6 +12,7 @@
   <input type="checkbox" name="emotions[]" value="sad">かなしい
   <input type="checkbox" name="emotions[]" value="fun">たのしい
   <input type="submit" value="送信">
+  <div>ついか</div>
   <div>てすと01</div>
   <div>テスト02、pushした後に追加してまたupdateする</div>
   <div>追加できることはわかった</div>
