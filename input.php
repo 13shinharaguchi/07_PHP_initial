@@ -16,6 +16,7 @@
   <div>テスト02、pushした後に追加してまたupdateする</div>
   <div>追加できることはわかった</div>
   <div>#9でメインに変更を与える</div>
+  <div>ブランチのブランチを載せる</div>
   </form>
   <script>
   </script>
