@@ -15,6 +15,7 @@
   <div>てすと01</div>
   <div>テスト02、pushした後に追加してまたupdateする</div>
   <div>追加できることはわかった</div>
+  <div>#9でメインに変更を与える</div>
   </form>
   <script>
   </script>
